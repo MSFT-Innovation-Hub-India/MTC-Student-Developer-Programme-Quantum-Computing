@@ -67,7 +67,7 @@ There are different kinds of Ansatz available:
 
 
 ## Tech Stack and additional libraries
-(For this implementation we are using only Qiskit and PYSCFDriver on Azure Quantum. The other libraries and services are alternatives that can be used to achieve the same)<br>
+(For this implementation we are using only Qiskit and PYSCFDriver on Azure Quantum with IonQ as our backend. The other libraries and services are alternatives that can be used to achieve the same)<br>
 | Software/Service/Language | Description | 
 | :-------------- | --------------- | 
 | [Azure Quantum](https://learn.microsoft.com/en-us/azure/quantum/) | Workspace to run quantum computation tasks with the help of providers   | 
@@ -161,7 +161,7 @@ print(result.groundenergy)
 ## Output
 **Ansatz** : UCCSD<br>
 **Optimizer Used** : SPSA <br>
-**Backend** : IonQ Simulator<br>
+**Backend** : IonQ<br>
 
 | Molecule | Ground State Energy using simulator)| Ground State Energy using QPU (IonQ Aria) |
 |:---------- | ---------- | ---------- |
