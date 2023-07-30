@@ -88,6 +88,7 @@ There are different kinds of Ansatz available:
 
 ## Code Snippet
 ### [Source Code obtained from Microsoft Quantum Development Kit Samples](https://github.com/microsoft/Quantum/blob/main/samples/azure-quantum/variational-quantum-eigensolver/VQE-qiskit-hydrogen-session.ipynb)
+Code snippet explained for the H2 molecule. To view implementation of VQEs for HF and LiH refer to the Molecules folder.
 
 ### Using Qiskit
 #Importing PySCFDrivers to obtain the Hamiltonian for the molecule of choice
