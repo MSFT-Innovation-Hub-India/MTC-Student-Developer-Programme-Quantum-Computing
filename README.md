@@ -92,17 +92,26 @@ There are different kinds of Ansatz available:
 ### Using Qiskit
 #Importing PySCFDrivers to obtain the Hamiltonian for the molecule of choice
 ```python
+# Establishing the Molecule of choice
 from qiskit_nature.second_q.drivers import PySCFDriver
-driver = PySCFDriver(atom="Li 0 0 0; H 0 0 1.6", basis="sto-3g")
+driver = PySCFDriver(atom="H 0 0 0; H 0 0 0.76", basis="sto-3g")
+
+# Loading the molecular configuration [Hamiltonian]
 problem = driver.run()
 ```
 #Calling the Jordan-Wigner Mapper which maps a fermionic Hamiltonian to a qubit Hamiltonian
 ```python
-from qiskit_nature.second_q.mappers import JordanWignerMapper
+from qiskit_nature.second_q.mappers import JordanWignerMapper, BravyiKitaevMapper
+#mapper = BravyiKitaevMapper()
+
+# Mapping the Molecular Hamiltonian to a Qubit Hamiltonian
 mapper = JordanWignerMapper()
 ```
 #Creating a UCCSD(Unitary Coupled Cluster Singles and Doubles) Ansatz (which is usually preferred for a VQE problem) to compute the energy for a certain configuration of parameters. In UCCSD, the wavefunction of a molecular system is represented as a unitary transformation applied to a reference state, typically the Hartree-Fock state.
 ```python
+# Creating an Ansatz which is an assumption of the quantum state. The UCCSD (Unitary Coupled Cluster Singles and Doubles) is the type of Ansatz used for VQE
+# Hartree Fock sets the initial state (The parameters like number of orbitals, number of electron, etc)
+
 from qiskit_nature.second_q.circuit.library import UCCSD, HartreeFock
 ansatz = UCCSD(
     problem.num_spatial_orbitals,
@@ -114,12 +123,15 @@ ansatz = UCCSD(
         mapper,
     ),
 )
+num_qubits_allocated = ansatz.num_qubits
+print("Number of qubits allocated:", num_qubits_allocated)
 ```
 
 #Initializing the VQE function in Qiskit and passing the Ansatz and the optimizer(Classical part) to estimate the ground state
 ```python
+#Initializing the VQE with an estimator to compute the energy, with a SPSA optimizer for the Ansatz
 import numpy as np
-from qiskit.algorithms.optimizers import SPSA
+from qiskit.algorithms.optimizers import SPSA  #Simultaneous Perturbation Stochastic Approximation
 from qiskit.algorithms.minimum_eigensolvers import VQE
 from qiskit.primitives import Estimator
 vqe = VQE(Estimator(), ansatz, SPSA())
@@ -127,8 +139,8 @@ vqe = VQE(Estimator(), ansatz, SPSA())
 
 #Setting the initial parameters to zero and begin ground state estimation and comparing each configuration to check for the minimum value
 ```python
+# Initializing all parameters to zeros
 vqe.initial_point = np.zeros(ansatz.num_parameters)
-
 from qiskit_nature.second_q.algorithms import GroundStateEigensolver
 solver = GroundStateEigensolver(mapper, vqe)
 result = solver.solve(problem)
@@ -144,19 +156,27 @@ from azure.quantum.qiskit import AzureQuantumProvider
 provider = AzureQuantumProvider(
             resource_id = "",
             location = "")
-ionq_sim = provider.get_backend('ionq.simulator')
-
-# Set the backend you want to use here.
-# WARNING: Quantinuum simulator usage is not unlimited. Running this sample against it could consume a significant amount of your eHQC quota.
+print("This workspace's targets:")
+for backend in provider.backends():
+    print("- " + backend.name())
+ionq_sim = provider.get_backend('ionq.qpu.aria-1')
 backend_to_use = ionq_sim
 
 from qiskit_nature.second_q.algorithms import GroundStateEigensolver
+
+# The GroundStateEigensolver creates an instance of the class and initializes it with the vqe and mapper
 solver = GroundStateEigensolver(mapper, vqe)
-# Wrap the call to solve in a session "with" block so that all jobs submitted by it are grouped together.
-# Learn more about Interactive Hybrid and the Session API at https://aka.ms/AQ/Hybrid/Sessions/Docs
+
+# Creating a session to be submitted to the QPU
 with backend_to_use.open_session(name="VQE H2") as session:
+    backend_props = backend_to_use.properties()
+   
     result = solver.solve(problem)
 
+num_qubits_ionq = backend_to_use.configuration().n_qubits
+
+print("Number of qubits used in IonQ:", num_qubits_ionq)
+# Printing the result
 print("AzureQuantum " + backend_to_use.name() + " result:\n")
 print(result.groundenergy)
 ```
