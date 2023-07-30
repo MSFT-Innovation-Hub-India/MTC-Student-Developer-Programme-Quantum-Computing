@@ -35,7 +35,7 @@ In simple terms, the quantum part comes into effect in simulating different elec
 - **Sequential Least Squares Quadratic Programming (SLSQP)**: SLSQP is a gradient-based optimization algorithm that is well-suited for smooth optimization problems with constraints
 
 
-## Tech Stack
+## Tech Stack and additional technologies
 
 | Software/Service/Language | Description | 
 | :-------------- | --------------- | 
@@ -50,6 +50,16 @@ In simple terms, the quantum part comes into effect in simulating different elec
 | [PYSCF Driver](https://qiskit.org/documentation/stable/0.31/apidoc/qiskit.chemistry.drivers.pyscfd.html) | Python-based Simulations of Chemistry Framework, a platform for quantum chemistry calculations and methodology |
 | [NWChem (Alternate to PySCF Driver)](https://arrows.emsl.pnnl.gov/api/) | NWChem is an open-source computational chemistry software package widely used for performing quantum chemical calculations and simulations. The fermionic Hamiltonian data for various compounds can be downloaded to be used in simulations|
 
+## Implementation of VQEs on Azure Quantum using Qiskit
+## Prerequisites
+```
+git clone
+
+```
+
+```
+pip install -r requirements.txt
+```
 ## Procedure
 
 1) Realize a Hamiltonian to compute the ground state of the required molecule – this would be the problem you want to solve for ( Molecular Hamiltonian in this case).
