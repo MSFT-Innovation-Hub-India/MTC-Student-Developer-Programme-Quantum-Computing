@@ -148,7 +148,7 @@ result = solver.solve(problem)
 print(f"Total ground state energy = {result.total_energies[0]:.4f}")
 ```
 
-### Running the algorithm with IonQ Simulators
+### Running the algorithm with IonQ 
 ```python
 from azure.quantum.qiskit import AzureQuantumProvider
 
