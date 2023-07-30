@@ -21,7 +21,7 @@ In this blog we shall look into the implementation of a Variational Quantum Eige
 (The Inter-Atomic distances are approximations and not the exact values)<br>
 The compounds/molecules are chosen based on their size and inter-molecular distances as larger molecules require a greater number of qubits which is limited by the availability of qubits by the Quantum resource providers. 
 
-## Introduction to Variational Quantum Eigensolvers (VQEs) and its Implementation<br>
+## Introduction to Variational Quantum Eigensolvers (VQEs)<br>
 VQEs are a class of hybrid algorithms in Quantum Computing that aims to obtain the ground state energy of a molecule (usually in a configuration). A quantum circuit (An trial wave function that represents the problem to be solved) is measured for the energy and the classical computer evaluates on how the parameters assumed initially can be improved. Once the classical computer fine tunes the quantum circuit parameters using an optimizer and passes it back to the quantum circuit, the procedure is repeated till the ground state energy is obtained. The mathematics behind the VQEs depends on the fact that the expectation of a wave function’s energy is always greater than or equal to its exact ground state energy level. Thus as the parameters are optimized the expectation value of the enrgy gets closer to the actual ground state energy.<br>
 
 In simple terms, the quantum part comes into effect in simulating different electronic configurations in the molecule and their interactions. These are then measured at each configuration and sent to the classical algorithm. Classical optimization techniques like gradient descent, SPSA or SLSQP are performed for each configuration to finally obtain the lowest energy (the ground state) for that molecule. It is variational as the expectation of the trial wavefunction is at least equal to the ground state energy.<br>
@@ -35,7 +35,7 @@ In simple terms, the quantum part comes into effect in simulating different elec
 - **Sequential Least Squares Quadratic Programming (SLSQP)**: SLSQP is a gradient-based optimization algorithm that is well-suited for smooth optimization problems with constraints
 
 
-## Tech Stack and additional technologies
+## Tech Stack and additional libraries
 
 | Software/Service/Language | Description | 
 | :-------------- | --------------- | 
