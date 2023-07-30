@@ -33,23 +33,6 @@ In simple terms, the quantum part comes into effect in simulating different elec
 - **Eigensolver**: A classical algorithm to find the eigen values given a matrix<br>
 - **Simultaneous Perturbation Stochastic Approximation (SPSA)**:  SPSA is a gradient-free optimization algorithm that excels in noisy or black-box environments<br>
 - **Sequential Least Squares Quadratic Programming (SLSQP)**: SLSQP is a gradient-based optimization algorithm that is well-suited for smooth optimization problems with constraints
-
-
-## Tech Stack and additional libraries
-
-| Software/Service/Language | Description | 
-| :-------------- | --------------- | 
-| [Azure Quantum](https://learn.microsoft.com/en-us/azure/quantum/) | Workspace to run quantum computation tasks with the help of providers   | 
-| [IonQ Provider](https://learn.microsoft.com/en-us/azure/quantum/provider-ionq#ionq-harmony-quantum-computer) | Dynamically reconfigurable trapped-ion quantum computer for up to 11 fully connected qubits that lets you run a two-qubit gate between any pair. IonQ Simulators offer upto 29 qubits   | 
-| [Quantum Development Kit](https://learn.microsoft.com/en-us/training/modules/qsharp-create-first-quantum-development-kit/2-install-quantum-development-kit-code?ns-enrollment-type=learningpath&ns-enrollment-id=learn.quantum-computing-fundamentals) | An SDK used to interface with Azure Quantum service. Supports languages such as Q#, Qiskit and Cirq |
-| [Q#](https://learn.microsoft.com/en-us/training/modules/get-started-azure-quantum/get-started-jupyter-notebook?ns-enrollment-type=learningpath&ns-enrollment-id=learn.quantum-computing-fundamentals&tabs=tabid-ionq) | Q# is a domain-specific language optimized for quantum programming in the Microsoft Quantum ecosystem |
-| Python | Programming language |
-| [Quantum Chemistry Library](https://learn.microsoft.com/en-us/azure/quantum/user-guide/libraries/chemistry/installation) | The quantum chemistry library included in the Quantum Development Kit is specifically designed to synergize effectively with different computational chemistry packages |
-| [Qiskit](https://qiskit.org/) | Qiskit is based on Python, widely used, and focuses on a variety of quantum applications - Developed by IBM |
-| [Broombridge](https://learn.microsoft.com/en-us/azure/quantum/user-guide/libraries/chemistry/schema/broombridge) | It is a data format that represents various aspects of a quantum circuit |
-| [PYSCF Driver](https://qiskit.org/documentation/stable/0.31/apidoc/qiskit.chemistry.drivers.pyscfd.html) | Python-based Simulations of Chemistry Framework, a platform for quantum chemistry calculations and methodology |
-| [NWChem (Alternate to PySCF Driver)](https://arrows.emsl.pnnl.gov/api/) | NWChem is an open-source computational chemistry software package widely used for performing quantum chemical calculations and simulations. The fermionic Hamiltonian data for various compounds can be downloaded to be used in simulations|
-
 ## Implementation of VQEs on Azure Quantum using Qiskit
 ## Prerequisites
 Clone the repository
@@ -61,7 +44,8 @@ Install the necessary libraries
 ```
 pip install -r requirements.txt
 ```
-## Procedure
+Run the Jupyter Notebook
+## Procedure Explanation
 
 1) Realize a Hamiltonian to compute the ground state of the required molecule – this would be the problem you want to solve for ( Molecular Hamiltonian in this case).
 2) Map the Fermionic (molecular) Hamiltonian to a qubit Hamiltonian. – The qubit Hamiltonian mimics the electronic interactions within the molecule. This is where the limitation arises. As the size of the molecule increases, so does the number of electrons in each orbital and hence the number of qubits needed to encode them.
@@ -79,7 +63,23 @@ There are different kinds of Ansatz available:
 ### Running on Azure Quantum Backend (Ionq provider) <br>
 
 5.	Apply classical optimization techniques such as SPSA or Gradient descent to minimize the cost function. This tunes the ansatz circuit parameters and is then sent back to the quantum circuit for energy re-estimation for that configuration.
-6.	Reiterate the procedure till the minimum energy is obtained.
+6.	Reiterate the procedure till the minimum energy is obtained.<br>
+
+
+## Tech Stack and additional libraries
+
+| Software/Service/Language | Description | 
+| :-------------- | --------------- | 
+| [Azure Quantum](https://learn.microsoft.com/en-us/azure/quantum/) | Workspace to run quantum computation tasks with the help of providers   | 
+| [IonQ Provider](https://learn.microsoft.com/en-us/azure/quantum/provider-ionq#ionq-harmony-quantum-computer) | Dynamically reconfigurable trapped-ion quantum computer for up to 11 fully connected qubits that lets you run a two-qubit gate between any pair. IonQ Simulators offer upto 29 qubits   | 
+| [Quantum Development Kit](https://learn.microsoft.com/en-us/training/modules/qsharp-create-first-quantum-development-kit/2-install-quantum-development-kit-code?ns-enrollment-type=learningpath&ns-enrollment-id=learn.quantum-computing-fundamentals) | An SDK used to interface with Azure Quantum service. Supports languages such as Q#, Qiskit and Cirq |
+| [Q#](https://learn.microsoft.com/en-us/training/modules/get-started-azure-quantum/get-started-jupyter-notebook?ns-enrollment-type=learningpath&ns-enrollment-id=learn.quantum-computing-fundamentals&tabs=tabid-ionq) | Q# is a domain-specific language optimized for quantum programming in the Microsoft Quantum ecosystem |
+| Python | Programming language |
+| [Quantum Chemistry Library](https://learn.microsoft.com/en-us/azure/quantum/user-guide/libraries/chemistry/installation) | The quantum chemistry library included in the Quantum Development Kit is specifically designed to synergize effectively with different computational chemistry packages |
+| [Qiskit](https://qiskit.org/) | Qiskit is based on Python, widely used, and focuses on a variety of quantum applications - Developed by IBM |
+| [Broombridge](https://learn.microsoft.com/en-us/azure/quantum/user-guide/libraries/chemistry/schema/broombridge) | It is a data format that represents various aspects of a quantum circuit |
+| [PYSCF Driver](https://qiskit.org/documentation/stable/0.31/apidoc/qiskit.chemistry.drivers.pyscfd.html) | Python-based Simulations of Chemistry Framework, a platform for quantum chemistry calculations and methodology |
+| [NWChem (Alternate to PySCF Driver)](https://arrows.emsl.pnnl.gov/api/) | NWChem is an open-source computational chemistry software package widely used for performing quantum chemical calculations and simulations. The fermionic Hamiltonian data for various compounds can be downloaded to be used in simulations|
 
 ## Block Diagram 
 ![alt VQE workflow](https://github.com/MaalavikaS/Maals.github.io/blob/main/Fermionic%20Hamiltonian.png)
