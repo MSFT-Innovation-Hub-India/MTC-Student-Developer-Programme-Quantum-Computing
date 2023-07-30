@@ -52,11 +52,12 @@ In simple terms, the quantum part comes into effect in simulating different elec
 
 ## Implementation of VQEs on Azure Quantum using Qiskit
 ## Prerequisites
+Clone the repository
 ```
-git clone
-
+git clone https://github.com/MTC-India/quantum-computing.git
 ```
 
+Install the necessary libraries
 ```
 pip install -r requirements.txt
 ```
