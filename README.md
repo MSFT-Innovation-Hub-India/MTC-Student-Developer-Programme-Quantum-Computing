@@ -35,7 +35,7 @@ In simple terms, the quantum part comes into effect in simulating different elec
 - **Sequential Least Squares Quadratic Programming (SLSQP)**: SLSQP is a gradient-based optimization algorithm that is well-suited for smooth optimization problems with constraints
 ## Implementation of VQEs on Azure Quantum using Qiskit
 ### Why do we need VQEs?
-As mentioned above VQEs are using in calculating the ground state of molecules which is extensively used quantum chemistry applications and simulations. It can also be used in the field of finance to solve combinatorial optimization problems.
+As mentioned above VQEs are used in calculating the ground state energy of molecules which is extensively used in quantum chemistry applications and simulations. It can also be used in the field of finance to solve combinatorial optimization problems.
 ## Prerequisites
 Clone the repository
 ```
