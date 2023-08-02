@@ -16,6 +16,7 @@ Another challenge is the availability of reliable hardware with satisfactory num
 Hardware limitations result in limited number of qubits available, isolation of these qubits to prevent decoherence, needs error correction to protect them from decoherence and quantum noise, etc.<br>
 ## You can explore<br>
 ### :electron: [Quantum Computing in the field of Chemistry](https://github.com/MTC-India/quantum-omputing/blob/main/Quantum%20Computing%20in%20Chemistry.md)<br>
+### :electron: [Quantum Computing in Entanglement and Superposition](https://github.com/MTC-India/quantum-computing/blob/main/Quantum%20Entanglement%20and%20Superposition.md)<br>
     
 ### Technology involved
 
