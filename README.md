@@ -21,7 +21,7 @@ Hardware limitations result in limited number of qubits available, isolation of 
 
 | Software/Service/Language | Description | 
 | :-------------- | --------------- | 
-| [Azure Quantum](https://learn.microsoft.com/en-us/azure/quantum/) | Workspace to run quantum computation tasks with the help of providers   | 
+| [Azure Quantum](https://learn.microsoft.com/en-us/azure/quantum/) | A cloud platform that enables the execution of quantum applications either on simulators or on Quantum Hardware by means of providers.   | 
 | [IonQ Provider](https://learn.microsoft.com/en-us/azure/quantum/provider-ionq#ionq-harmony-quantum-computer) | Dynamically reconfigurable trapped-ion quantum computer for up to 11 fully connected qubits that lets you run a two-qubit gate between any pair. IonQ Simulators offer upto 29 qubits   | 
 | Python | Programming language |
 | [Qiskit](https://qiskit.org/) | Qiskit is based on Python, widely used, and focuses on a variety of quantum applications - Developed by IBM |
