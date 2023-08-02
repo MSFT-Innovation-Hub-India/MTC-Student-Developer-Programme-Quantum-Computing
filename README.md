@@ -15,8 +15,8 @@ Quantum computing finds its way in Chemistry, Material Sciences, Drug discoverie
 Another challenge is the availability of reliable hardware with satisfactory number of qubits.
 Hardware limitations result in limited number of qubits available, isolation of these qubits to prevent decoherence, needs error correction to protect them from decoherence and quantum noise, etc.<br>
 ### You can explore<br>
-    [Quantum Computing in the field of Chemistry](https://github.com/MTC-India/quantum-omputing/blob/main/Quantum%20Computing%20in%20Chemistry.md)<br>
-    [Entanglement]<br>
+    1. [Quantum Computing in the field of Chemistry](https://github.com/MTC-India/quantum-omputing/blob/main/Quantum%20Computing%20in%20Chemistry.md)<br>
+    2. [Entanglement]<br>
   
 ## References and Sources
 ### VQE Related Articles :electron:
