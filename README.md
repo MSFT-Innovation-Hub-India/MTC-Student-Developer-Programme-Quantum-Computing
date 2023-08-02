@@ -2,9 +2,11 @@
 
 ![alt Quantum](https://github.com/MaalavikaS/Maals.github.io/blob/main/Q.png) 
 ## Hi ! Welcome to the Quantum Computing Repo. Here you can get a bird's eye view of the quantum world and explore two applications that we've chosen where quantum computing holds great promise.<br>
-### You can explore [Quantum Computing in the field of Chemistry](https://github.com/MTC-India/quantum-computing/blob/main/Quantum%20Computing%20in%20Chemistry.md)<br>
+###   You can explore [Quantum Computing in the field of Chemistry](https://github.com/MTC-India/quantum-computing/blob/main/Quantum%20Computing%20in%20Chemistry.md)<br>
 # An overview of the world of Quantum Computing
 ## What is Quantum Computing?
+Quantum computing is the next generation of computing technology that uses the principles of quantum mechanics to process information. Unlike classical computers, which use bits that can be either 0 or 1, quantum computers use qubits that can be both 0 and 1 at the same time. 
+The three properties that give quantum computation an edge over others are Superposition, Entanglement and Interference.
 
 ## References and Sources
 ### VQE Related Articles :electron:
