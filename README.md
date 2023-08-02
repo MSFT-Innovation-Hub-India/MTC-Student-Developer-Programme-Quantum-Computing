@@ -1,8 +1,8 @@
 # MTC Student Developer Programme 2023
 
 ![alt Quantum](https://github.com/MaalavikaS/Maals.github.io/blob/main/Q.png) 
-## Hi ! Welcome to the Quantum Computing Repo. Here you can get a bird's eye view of the quantum world and explore two applications that we've chosen to study where quantum computing holds great promise.<br>
-###   You can explore [Quantum Computing in the field of Chemistry](https://github.com/MTC-India/quantum-computing/blob/main/Quantum%20Computing%20in%20Chemistry.md)<br>
+## Welcome to the Quantum Computing Repo. Here you can get a bird's eye view of the quantum world and explore two applications that we've chosen to study where quantum computing holds great promise.<br>
+
 # An overview of the world of Quantum Computing
 ## What is Quantum Computing?
 Quantum computing is the next generation of computing technology that uses the principles of quantum mechanics to proceszs information. Unlike classical computers, which use bits that can be either 0 or 1, quantum computers use qubits that can be both 0 and 1 at the same time. 
@@ -13,8 +13,10 @@ In most cases classical computations offer a simple solution but fails as the si
 Popular applications include enhancing the speed of search algorithms like Grover’s Algorithm and Shor’s Algorithm where polynomial and exponential speedup have been obtained, respectively.
 Quantum computing finds its way in Chemistry, Material Sciences, Drug discoveries, Cryptography, Financial Modelling, Climate and Weather Forecast, etc.
 Another challenge is the availability of reliable hardware with satisfactory number of qubits.
-Hardware limitations result in limited number of qubits available, isolation of these qubits to prevent decoherence, needs error correction to protect them from decoherence and quantum noise, etc.
-
+Hardware limitations result in limited number of qubits available, isolation of these qubits to prevent decoherence, needs error correction to protect them from decoherence and quantum noise, etc.<br>
+You can explore<br>
+  You can explore [Quantum Computing in the field of Chemistry](https://github.com/MTC-India/quantum-omputing/blob/main/Quantum%20Computing%20in%20Chemistry.md<br>
+  
 ## References and Sources
 ### VQE Related Articles :electron:
   - [Simulating Ground State of LiH Molecules](https://rodneyosodo.medium.com/simulating-molecules-lih-using-vqe-de40d7456fcc)
