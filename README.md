@@ -16,7 +16,6 @@ Another challenge is the availability of reliable hardware with satisfactory num
 Hardware limitations result in limited number of qubits available, isolation of these qubits to prevent decoherence, needs error correction to protect them from decoherence and quantum noise, etc.<br>
 ## You can explore<br>
 ### :electron: [Quantum Computing in the field of Chemistry](https://github.com/MTC-India/quantum-omputing/blob/main/Quantum%20Computing%20in%20Chemistry.md)<br>
-### :electron: [Quantum Entanglement and Superposition](https://github.com/MTC-India/quantum-computing/blob/main/Quantum%20Entanglement%20and%20Superposition.md)<br>
     
 ### Technology involved
 
@@ -28,7 +27,15 @@ Hardware limitations result in limited number of qubits available, isolation of 
 | [Qiskit](https://qiskit.org/) | Qiskit is based on Python, widely used, and focuses on a variety of quantum applications - Developed by IBM |
 | [PYSCF Driver](https://qiskit.org/documentation/stable/0.31/apidoc/qiskit.chemistry.drivers.pyscfd.html) | Python-based Simulations of Chemistry Framework, a platform for quantum chemistry calculations and methodology |
 
-  
+### :electron: [Quantum Entanglement and Superposition](https://github.com/MTC-India/quantum-computing/blob/main/Quantum%20Entanglement%20and%20Superposition.md)<br>
+    
+### Technology involved
+
+| Software/Service/Language | Description | 
+| :-------------- | --------------- | 
+| [Quantum Development Kit](https://learn.microsoft.com/en-us/training/modules/qsharp-create-first-quantum-development-kit/2-install-quantum-development-kit-code?ns-enrollment-type=learningpath&ns-enrollment-id=learn.quantum-computing-fundamentals) | An SDK used to interface with Azure Quantum service. Supports languages such as Q#, Qiskit and Cirq |
+| [Q#](https://learn.microsoft.com/en-us/training/modules/get-started-azure-quantum/get-started-jupyter-notebook?ns-enrollment-type=learningpath&ns-enrollment-id=learn.quantum-computing-fundamentals&tabs=tabid-ionq) | Q# is a domain-specific language optimized for quantum programming in the Microsoft Quantum ecosystem |
+| Python | Programming language |
 ## References and Sources
 ### VQE Related Articles :electron:
   - [Simulating Ground State of LiH Molecules](https://rodneyosodo.medium.com/simulating-molecules-lih-using-vqe-de40d7456fcc)
