@@ -1,7 +1,7 @@
 # MTC Student Developer Programme 2023
 
 ![alt Quantum](https://github.com/MaalavikaS/Maals.github.io/blob/main/Q.png) 
-#Hi ! Welcome to the Quantum Computing Repo. Here you can get a bird's eye view of the quantum world and explore two applications that we've chosen where quantum computing holds great promise.<br>
+# Hi ! Welcome to the Quantum Computing Repo. Here you can get a bird's eye view of the quantum world and explore two applications that we've chosen where quantum computing holds great promise.<br>
 You can explore Quantum
 # An overview of the world of Quantum Computing
 ## What is Quantum Computing?
