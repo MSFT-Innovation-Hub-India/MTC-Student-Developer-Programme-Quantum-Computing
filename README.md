@@ -14,10 +14,10 @@ Popular applications include enhancing the speed of search algorithms like Grove
 Quantum computing finds its way in Chemistry, Material Sciences, Drug discoveries, Cryptography, Financial Modelling, Climate and Weather Forecast, etc.
 Another challenge is the availability of reliable hardware with satisfactory number of qubits.
 Hardware limitations result in limited number of qubits available, isolation of these qubits to prevent decoherence, needs error correction to protect them from decoherence and quantum noise, etc.<br>
-### You can explore<br>
+## You can explore<br>
 ### :electron: [Quantum Computing in the field of Chemistry](https://github.com/MTC-India/quantum-omputing/blob/main/Quantum%20Computing%20in%20Chemistry.md)<br>
     
-## Technology involved
+### Technology involved
 
 | Software/Service/Language | Description | 
 | :-------------- | --------------- | 
