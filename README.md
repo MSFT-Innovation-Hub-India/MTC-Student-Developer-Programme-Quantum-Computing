@@ -17,6 +17,16 @@ Hardware limitations result in limited number of qubits available, isolation of 
 ### You can explore<br>
 ### :electron: [Quantum Computing in the field of Chemistry](https://github.com/MTC-India/quantum-omputing/blob/main/Quantum%20Computing%20in%20Chemistry.md)<br>
     
+## Technology involved
+
+| Software/Service/Language | Description | 
+| :-------------- | --------------- | 
+| [Azure Quantum](https://learn.microsoft.com/en-us/azure/quantum/) | Workspace to run quantum computation tasks with the help of providers   | 
+| [IonQ Provider](https://learn.microsoft.com/en-us/azure/quantum/provider-ionq#ionq-harmony-quantum-computer) | Dynamically reconfigurable trapped-ion quantum computer for up to 11 fully connected qubits that lets you run a two-qubit gate between any pair. IonQ Simulators offer upto 29 qubits   | 
+| Python | Programming language |
+| [Qiskit](https://qiskit.org/) | Qiskit is based on Python, widely used, and focuses on a variety of quantum applications - Developed by IBM |
+| [PYSCF Driver](https://qiskit.org/documentation/stable/0.31/apidoc/qiskit.chemistry.drivers.pyscfd.html) | Python-based Simulations of Chemistry Framework, a platform for quantum chemistry calculations and methodology |
+
   
 ## References and Sources
 ### VQE Related Articles :electron:
