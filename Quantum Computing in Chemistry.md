@@ -46,7 +46,7 @@ Install the necessary libraries
 ```
 pip install -r requirements.txt
 ```
-Run the Jupyter Notebook
+Run the Jupyter Notebook for H2, HF and LiH 
 ## Procedure Explanation
 
 1) Realize a Hamiltonian to compute the ground state of the required molecule – this would be the problem you want to solve for ( Molecular Hamiltonian in this case).
