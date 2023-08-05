@@ -35,7 +35,7 @@ Hardware limitations result in limited number of qubits available, isolation of 
 | :-------------- | --------------- | 
 | [Quantum Development Kit](https://learn.microsoft.com/en-us/training/modules/qsharp-create-first-quantum-development-kit/2-install-quantum-development-kit-code?ns-enrollment-type=learningpath&ns-enrollment-id=learn.quantum-computing-fundamentals) | An SDK used to interface with Azure Quantum service. Supports languages such as Q#, Qiskit and Cirq |
 | [Q#](https://learn.microsoft.com/en-us/training/modules/get-started-azure-quantum/get-started-jupyter-notebook?ns-enrollment-type=learningpath&ns-enrollment-id=learn.quantum-computing-fundamentals&tabs=tabid-ionq) | Q# is a domain-specific language optimized for quantum programming in the Microsoft Quantum ecosystem |
-| Python | Programming language |
+
 ## References and Sources
 ### VQE Related Articles :electron:
   - [Simulating Ground State of LiH Molecules](https://rodneyosodo.medium.com/simulating-molecules-lih-using-vqe-de40d7456fcc)
