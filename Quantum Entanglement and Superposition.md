@@ -29,9 +29,7 @@ We shall look into each of these in detail over the next parts.
 
 # SuperDense Coding
 
-Superdense coding uses the principle of quantum entanglement in order to efficiently conduct classical communication. We can convey two bits of classical nature from one “User” to another by the use of one Qubit by using the aforementioned principle. The use of these methods can be extrapolated to convey messages of larger sizes in an exponential way. The basic method involves setting two initial Qubits into superpositional states(Bell state in order to ensure maximal entanglement) and providing one to both the receiver and the sender. The sender can use appropriate methods to convert the Qubit received into a form that can be
-
-converted to the final message by using the reverse of the method used initially to put the Qubits into the superposition.
+Superdense coding uses the principle of quantum entanglement in order to efficiently conduct classical communication. We can convey two bits of classical nature from one “User” to another by the use of one Qubit by using the aforementioned principle. The use of these methods can be extrapolated to convey messages of larger sizes in an exponential way. The basic method involves setting two initial Qubits into superpositional states(Bell state in order to ensure maximal entanglement) and providing one to both the receiver and the sender. The sender can use appropriate methods to convert the Qubit received into a form that can be converted to the final message by using the reverse of the method used initially to put the Qubits into the superposition.
 ## Method-
 
 First the Qubits are put into superposition by using the hadamard and the controlled Not(CNOT) gate.
@@ -49,7 +47,7 @@ For a message of 10-Z Pauli Matrix
 For a message of 11- XZ Pauli Matrix
 
 Now, this message is sent to the receiver, who knows the states are in superposition and uses the inverse( the CNOT proceeded by the Hadamard gate) in order to obtain the message required.
-
+![alt SuperDense](https://github.com/MTC-India/quantum-computing/blob/main/quantum%20entanglement/Picture2.jpg)<br>
 ### Advantages-
 
 1. Increased Security- The final message can only be decoded with the Qubit which the receiver has which is in superposition with the Qubit in the message. Even if the message is intercepted in the channel, it is useless without the other Qubit to run it against. In the small scale example it is easy to think that we could run it against the inverse of the aforementioned Matrices, However when the message is of a larger size, we will be using a combination of these gates to get the message into a form that can be “decoded”. This prevents reverse engineering the message. Hence the security of the message transmitted is increased.
