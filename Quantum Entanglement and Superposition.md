@@ -6,9 +6,7 @@ Quantum Entanglement is an unusual phenomenon that shows how states of two parti
 What is superposition?
 
 To understand quantum entanglement, we must have the understanding of superposition. Superposition is characterised by the unknown. It refers to a system that can exist in multiple states simultaneously at a given time. For instance if one flips a coin and grasps it in their palm without checking it, it could be either heads or tails right? This premise is acceptable, however we have no knowledge of which one it is. In that instant, it is both heads and tails.
-
 When a system is in superposition, we can view their states as outcomes with certain probabilities based on their characteristics.
-
 For instance, we put a dice in a closed opaque box and shake it around. We would now like to know which side is facing the lid of the box. We know that this system is in superposition(all six faces are facing the lid) and that all six faces could be facing the lid with a 1/6th probability.
 
 Now that we’ve covered superposition let us move on to entanglement.
@@ -58,7 +56,7 @@ Now, this message is sent to the receiver, who knows the states are in superposi
 
 2. Decreased bandwidth required- A message of 2 classical bits is transmitted with 1 bit channels. This can be extrapolated to allow a larger message to be transmitted with smaller bandwidths. The bandwidth required for transmission is inversely proportional to the message size. The bandwidth represents the number of classical bits that can be transmitted per Qubit , and it remains constant regardless of the message size. The bandwidth is 2 per Qubit regardless of the size of the message.
 
-# QUANTUM TELEPORTATION
+# Quantum Teleportation
 
 Quantum Teleportation uses the phenomenon of quantum entanglement to completely transfer a Quantum state from one location to another, without actually physically transmitting the system. Initially the receiver and the sender have a entangled pair of qubits, which is in a bell state to ensure maximal entanglement.
 
