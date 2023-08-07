@@ -13,7 +13,7 @@ For instance, we put a dice in a closed opaque box and shake it around. We would
 
 Now that we’ve covered superposition let us move on to entanglement.
 
-# Quantum Entanglement
+# Quantum Entanglement 
 
 Quantum entanglement is a phenomenon in the realm of quantum mechanics that has for long dazed and confused the scientific community at large. The key principle claims that there is a peculiar connection between particular quantum particles even when they are spatially separated. This interpretation in a classical method would violate the basic laws of the individuality of a particle. This also seems to violate what Albert Einstein said, the transmission of information cannot occur at a rate which is faster than. the speed of light. Quantum entanglement involves a correlation between the properties of entangled particles, such as their spin, position, or polarisation. Remarkably, when two particles become entangled, the state of one particle instantaneously influences the state of the other, regardless of the distance separating them.
 
@@ -77,7 +77,7 @@ The CNOT gate is then applied with the first qubit serving as control and the se
 
 2)Long distance quantum communication- since the entangled bits being used by the sender and the receiver remain in superposition even at extremely long distances, the quantum information can be transferred across long distances without being affected by noise or decoherence.
 
-# Quantum Cryptography
+# Quantum Cryptography 
 
 Quantum cryptography is a method that uses the principles of quantum mechanics to ensure the safe and secure communication between two “Users”. Confidentiality and integrity of data are ensured by using quantum physics. It uses the Heisenberg uncertainty principle, which states that the position and momentum of a quantum particle cannot be precisely measured simultaneously. This principle is the basis for the security of the transmission.The basic principle of cryptography involves the use of an encryption key which is held by the sender and the receiver.However rather than classical mathematical algorithms,which can be reverse engineered, the secure nature of the quantum cryptography is due to fundamental laws of nature.
 
