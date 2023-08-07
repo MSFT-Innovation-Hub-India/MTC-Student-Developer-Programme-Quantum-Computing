@@ -47,6 +47,7 @@ For a message of 10-Z Pauli Matrix
 For a message of 11- XZ Pauli Matrix
 
 Now, this message is sent to the receiver, who knows the states are in superposition and uses the inverse( the CNOT proceeded by the Hadamard gate) in order to obtain the message required.
+
 ![alt SuperDense](https://github.com/MTC-India/quantum-computing/blob/main/quantum%20entanglement/Picture2.jpg)<br>
 ### Advantages-
 
@@ -64,7 +65,9 @@ We can see that teleportation does not exactly take place but the disappearance 
 
 ## Method-
 
-The CNOT gate is then applied with the first qubit serving as control and the second qubit as target.In the next stage, the Hadamard gate is applied to the first qubit.The measurements are performed on qubits 1 and 2, and based on the results of measurements, denoted respectively as a and b, the controlled-X (CNOT) and controlled-Z gates are applied conditionally. This allows some PSI to be “teleported”.
+The CNOT gate is then applied with the first qubit serving as control and the second qubit as target.In the next stage, the Hadamard gate is applied to the first qubit.The measurements are performed on qubits 1 and 2, and based on the results of measurements, denoted respectively as a and b, the controlled-X (CNOT) and controlled-Z gates are applied conditionally. This allows some PSI to be “teleported”.<br>
+
+![alt Teleportation](https://github.com/MTC-India/quantum-computing/blob/main/quantum%20entanglement/Picture3.jpg)<br>
 
 ### Advantages-
 
