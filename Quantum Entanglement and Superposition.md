@@ -1,5 +1,7 @@
 # Introduction
 
+![alt Quantum Entanglement](https://github.com/MTC-India/quantum-computing/blob/main/quantum%20entanglement/Picture1.png)
+
 What does the word entanglement mean to us? Ordinarily it signifies a rather difficult or complicated relationship with another entity. Quantum Entanglement, similarly, lives up to its name. Regarded as a strange and spooky phenomenon for multiple years, it left scientists in awe and confusion.
 
 Quantum Entanglement is an unusual phenomenon that shows how states of two particles at any distance from one another remain correlated or entangled. Any small change in one of these particles, shall reflect in the other. Experiments on quantum entanglement were demonstrated using photons. This event, seemingly defying Einstein’s theory of Relativity, gave rise to a baffling question. Can information move faster than light?
