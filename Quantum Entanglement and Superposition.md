@@ -99,4 +99,4 @@ Security-The use of quantum mechanics uses the laws of nature to ensure security
 
 Long Distance key distribution- The QKD process (quantum key distribution) enables safe transfer of the key across long distances by implementing symmetric encryption patterns.
 
-### These methods are rather difficult to implement currently, on a large scale due to technological limitations. I have attached basic codes for the functions which perform the aforementioned tasks, assuming that a classical message is two bits and a quantum state is represented by 1 Qubit.
+### These methods are rather difficult to implement currently, on a large scale due to technological limitations. 
