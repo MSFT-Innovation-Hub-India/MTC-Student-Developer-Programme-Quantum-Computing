@@ -220,3 +220,5 @@ print(result.groundenergy)
   - [Q# and Microsoft QDK](https://learn.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk)
   - [Hybrid Computing Concepts](https://learn.microsoft.com/en-us/azure/quantum/hybrid-computing-concepts)
   - [Copilot for Azure Quantum](https://quantum.microsoft.com/en-us/experience/quantum-coding)
+
+# Don't forget to check out [Quantum Entanglement Applications and Superdense Coding](https://github.com/MTC-India/quantum-computing/blob/main/Quantum%20Entanglement%20and%20Superposition.md)
