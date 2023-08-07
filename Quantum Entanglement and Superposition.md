@@ -87,6 +87,8 @@ The receiver measures the polarisation of these photons using a predetermined ba
 
 Finally the receiver and the sender compare the subset of their keys bits to estimate the error rate due the measurement disturbances. The procedure is then repeated until enough matching bits are present to know that the communication line is secure.
 
+![alt Cryptography](https://github.com/MTC-India/quantum-computing/blob/main/quantum%20entanglement/Picture4.png)<br>
+
 ### Advantages-
 
 Detection of eavesdroppers- Since the measurement of the quantum states causes a disturbance, any eavesdropper would cause a disturbance which would be noticed at the receiver's end. The receiver would compare the error with the average error and notice an increase which would turn the channel off, preventing any eavesdropper.
