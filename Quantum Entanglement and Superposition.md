@@ -29,7 +29,7 @@ The principle of quantum entanglement in the domain of computing can be seen in 
 
 We shall look into each of these in detail over the next parts.
 
-# SuperDense Coding
+# Superdense Coding
 
 Superdense coding uses the principle of quantum entanglement in order to efficiently conduct classical communication. We can convey two bits of classical nature from one “User” to another by the use of one Qubit by using the aforementioned principle. The use of these methods can be extrapolated to convey messages of larger sizes in an exponential way. The basic method involves setting two initial Qubits into superpositional states(Bell state in order to ensure maximal entanglement) and providing one to both the receiver and the sender. The sender can use appropriate methods to convert the Qubit received into a form that can be converted to the final message by using the reverse of the method used initially to put the Qubits into the superposition.
 ## Method-
