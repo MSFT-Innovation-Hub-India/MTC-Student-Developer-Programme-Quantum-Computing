@@ -101,4 +101,5 @@ Long Distance key distribution- The QKD process (quantum key distribution) enabl
 
 ### These methods are rather difficult to implement currently, on a large scale due to technological limitations. 
 
-## References and Sources
+## References and Sources ☑️
+[Superdense Coding and Quantum Teleportation](https://medium.com/geekculture/understanding-superdense-coding-c10b42adecca)
