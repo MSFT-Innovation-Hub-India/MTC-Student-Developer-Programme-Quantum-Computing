@@ -21,7 +21,7 @@ Quantum entanglement is a phenomenon in the realm of quantum mechanics that has 
 
 The principle of quantum entanglement in the domain of computing can be seen in the behaviour of Qubits, which are the fundamental particle of Quantum computing, they perform akin to bits in regular computing. The Qubits exist in a superposition state of 0 AND 1 unlike the regular bits which have a classically determined state of 1 OR 0. The value of a Qubit can only be determined at the time of measurement at which its value appears in a probabilistic state depending on the superposition state. Although the intrinsic benefits of entangled states might not be apparent, they hold significant utility in the domain of computing. The following are upcoming domains that use the principle of quantum entanglement-
 
-1. SuperDense Coding
+1. Superdense Coding
 
 2. Quantum teleportation
 
