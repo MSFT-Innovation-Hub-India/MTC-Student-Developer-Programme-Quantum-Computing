@@ -5,15 +5,19 @@
 
 # An overview of the world of Quantum Computing
 ## What is Quantum Computing?
-Quantum computing is the next generation of computing technology that uses the principles of quantum mechanics to proceszs information. Unlike classical computers, which use bits that can be either 0 or 1, quantum computers use qubits that can be both 0 and 1 at the same time. 
-The three properties that give quantum computation an edge over others are Superposition, Entanglement and Interference.<br>
+Quantum computing is the next generation of computing technology that uses the principles of quantum mechanics to process information. Unlike classical computers, which use bits that can be either 0 or 1, quantum computers use qubits that can be both 0 and 1 at the same time. 
+
+The three properties that give quantum computation an edge over traditional methods are Superposition, Entanglement and Interference.<br>
 ## Where can it be used?
 Finding a use case where quantum techniques provide an advantage over classical is a significant challenge in the quantum world. 
 In most cases classical computations offer a simple solution but fails as the size and complexity of the problem at hand increases.
 Popular applications include enhancing the speed of search algorithms like Grover’s Algorithm and Shor’s Algorithm where polynomial and exponential speedup have been obtained, respectively.
+
 Quantum computing finds its way in Chemistry, Material Sciences, Drug discoveries, Cryptography, Financial Modelling, Climate and Weather Forecast, etc.
 Another challenge is the availability of reliable hardware with satisfactory number of qubits.
 Hardware limitations result in limited number of qubits available, isolation of these qubits to prevent decoherence, needs error correction to protect them from decoherence and quantum noise, etc.<br>
+
+--------------------------------------------------------------
 ## You can explore<br>
 ### :electron: [Quantum Computing in the field of Chemistry](https://github.com/MTC-India/quantum-computing/blob/main/Quantum%20Computing%20in%20Chemistry.md)<br>
     
